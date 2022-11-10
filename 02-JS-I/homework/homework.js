@@ -31,10 +31,8 @@ function devolverString(pazYAmor) {
 }
 
 function suma(x, y) {
-  // "x" e "y" son números
-  // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+  var sumar = (x + y);
+  return sumar;  
 }
 
 function resta(x, y) {
