@@ -25,8 +25,8 @@ const nuevoModulo = 21 % 5 === 1;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(pazYAmor) {
-  const devolver = ('pazYAmor');
+function devolverString(str) {
+  const devolver = ('str');
   return devolver;
 }
 
@@ -36,28 +36,25 @@ function suma(x, y) {
 }
 
 function resta(x, y) {
-  // Resta "y" de "x" y devuelve el valor
-  // Tu código:
-  
+  var restar = (x - y);
+  return restar  
 }
 
 function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
-  
-}
+  var multiplicar = (x * y);
+  return multiplicar;
+}  
 
 function divide(x, y) {
-  // Divide "x" entre "y" y devuelve el valor
-  // Tu código:
-  
+  var dividir = (x / y);
+  return dividir;  
 }
 
 function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  if (x === y) {
+    return true;
+  }
+    return false;  
 }
 
 function tienenMismaLongitud(str1, str2) {
