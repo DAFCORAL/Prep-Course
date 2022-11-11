@@ -159,11 +159,11 @@ function deEuroAdolar(euro){
   return (euro * dolar)  
 }
 
-function esVocal (letra) {
+function esVocal(letra) {
   if (letra.length === 1)
   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
     return 'Es Vocal';}
-    return 'Dato incorrecto'
+    return 'Dato incorrecto';
 }
 
 // No modificar nada debajo de esta línea
