@@ -26,7 +26,7 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  const devolver = ('str');
+  const devolver = (str);
   return devolver;
 }
 
@@ -58,7 +58,7 @@ function sonIguales(x, y) {
 }
 
 function tienenMismaLongitud(str1, str2) {
-  if (str1 === str2) {
+  if (str1.length === str2.length) {
      return true;
    }
      return false;   
