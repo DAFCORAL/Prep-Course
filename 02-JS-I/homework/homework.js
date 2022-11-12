@@ -68,13 +68,13 @@ function menosQueNoventa(x, y) {
   if (x < 90); {
     return true;}
     return false;
-  } 
+} 
 
-function mayorQueCincuenta(x >50) {
+function mayorQueCincuenta(num) {
   if (x > 50);{
     return true;}
-    return false
-  }
+    return false;
+}
 
 function obtenerResto(x, y) {
  var restante = ( x % y)
