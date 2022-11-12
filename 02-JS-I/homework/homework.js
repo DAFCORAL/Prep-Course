@@ -71,10 +71,9 @@ function menosQueNoventa(x, y) {
 } 
 
 function mayorQueCincuenta(num) {
-  if (x > 50);{
+  if (num > 50);{
     return true;}
     return false;
-}
 
 function obtenerResto(x, y) {
  var restante = ( x % y)
