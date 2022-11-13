@@ -74,6 +74,7 @@ function mayorQueCincuenta(num) {
   if (num > 50);{
     return true;}
     return false;
+  }    
 
 function obtenerResto(x, y) {
  var restante = ( x % y)
