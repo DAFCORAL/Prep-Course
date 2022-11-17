@@ -164,7 +164,7 @@ function retornarPerimetro(lado) {
 
 function areaDelTriangulo(base, altura){
   const triangulo = (base * altura) / 2
-  return triangulo;
+  return triangulo
 }
 
 function deEuroAdolar(euro){
@@ -173,9 +173,10 @@ function deEuroAdolar(euro){
 }
 
 function esVocal(letra) {
-  if (letra.length === 1)
-  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
-    return 'Es vocal';}
+  if (letra.length === 1) {
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u')
+    return 'Es vocal';
+  }
     return 'Dato incorrecto';
 }
 
