@@ -232,7 +232,7 @@ function doWhile(numero) {
   let y = i
 do {
 x = x + 5
-i++
+i = i + 1
 }
 while (x < 8)
  return (x);
